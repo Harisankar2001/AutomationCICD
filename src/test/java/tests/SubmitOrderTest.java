@@ -27,7 +27,7 @@ public class SubmitOrderTest extends BaseTest {
     public void submitOrderTest(Map<String, String> input) throws InterruptedException, IOException {
 //        ProductCatalogue productCatalogue = landingPage.loginApplication("hari21@gmail.com", "Hari@2001");
 
-        String name = "Karthik";
+        String name = "Hari";
 
         String productName = input.get("product");
         ProductCatalogue productCatalogue = landingPage.loginApplication(input.get("email"), input.get("password"));
